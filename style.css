@@ -156,4 +156,15 @@ grid-template-columns: auto auto;
 width: 100%;
   height: auto;
 }
+.image-card-back{
+
+}
+.title-back-to-busy{
+    display: block;
+
+}
+.row1-back-to-busy{
+    display: flex;
+    flex-direction: row;
+}
 /*End main section*/
