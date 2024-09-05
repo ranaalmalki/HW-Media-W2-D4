@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*header section*/
+
+.nav-containr{
+    background-color: #ffffff;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+
+
+}
+.nav-second-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+
+}
+
+.nav-items :first-child{
+    
+    height: auto;
+    width: 9em;
+}
+
+.nav-items a{
+    text-decoration: none;
+    list-style: none;
+}
+/*search */
+.search-container form{
+    display: flex;
+
+}
+.search-container input[type=text]{
+padding: 7px;
+margin-top: 8px;
+font-size: 17px;
+border: 1px solid black;
+}
+.search-container button{
+    /* background-color:#b53811 ; */
+    background-color: #f15025;
+
+padding: 3px 2%;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 17px;
+border: none;
+cursor:pointer; 
+
+
+}
+
+
+/*End header*/
+
+/*main section*/
+
+.list-trusted-recipe{
+    background-color:#114388 ;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.list-trusted-recipe :first-child{
+
+}
+/*End main section*/
