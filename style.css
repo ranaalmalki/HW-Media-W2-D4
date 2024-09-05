@@ -67,7 +67,74 @@ cursor:pointer;
 /*End header*/
 
 /*main section*/
+main{
+    background-color: #f2f2f2;
+    display: grid;
 
+}
+.padding-main{
+    padding-left:2rem ;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.best-recipes-content{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.best-recipes-grid {
+   
+}
+.best-recipes-content p{
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+.food-news-section{
+    display: grid;
+    grid-template-columns: auto auto;
+
+;}
+.food-news-card1{
+   display: grid;
+   /* grid-template-columns: 700px; */
+
+   
+
+}
+.food-news-containr{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f5f6ea;
+}
+.food-news-containr img{
+    width: 7.5rem;
+    height: 5rem;
+}
+
+.ttitle-trending{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+    padding-bottom: .125rem;
+}
+.image-trending{
+display: grid;
+grid-template-columns: auto auto;
+
+}
+.image-trending img {
+    display: block;
+    width: 132px;
+}
+.first-card-trend{
+    display: flex;
+
+}
 .list-trusted-recipe{
     background-color:#114388 ;
     color: #ffffff;
@@ -78,5 +145,15 @@ cursor:pointer;
 }
 .list-trusted-recipe :first-child{
 
+}
+
+.food-news-section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.food-news-card1{
+
+width: 100%;
+  height: auto;
 }
 /*End main section*/
