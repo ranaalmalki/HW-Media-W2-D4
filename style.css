@@ -166,5 +166,12 @@ width: 100%;
 .row1-back-to-busy{
     display: flex;
     flex-direction: row;
+    gap: 4rem;
+
+}
+.image-card2-back{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
 }
 /*End main section*/
